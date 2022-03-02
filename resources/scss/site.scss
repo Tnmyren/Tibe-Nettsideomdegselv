@@ -17,3 +17,21 @@
 body{
     background-color: powderblue;
 }
+
+h3{
+    color: brown;
+}
+.flex-container {
+    display: flex;
+    padding: 50px;
+  }
+
+li {
+    display: inline;
+    text-align: -webkit-match-parent;
+}
+
+
+.h2{
+    font-size: 40px;
+}
