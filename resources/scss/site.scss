@@ -12,6 +12,7 @@
  */
 
 @import 'components/header';
+@import 'components/link.scss';
 
 
 body{
@@ -19,7 +20,8 @@ body{
 }
 
 h3{
-    color: brown;
+    text-align: center;
+    font-size: 20px;
 }
 .flex-container {
     display: flex;
@@ -36,4 +38,7 @@ li {
     font-size: 40px;
 }
 
+p{
+    text-align: center;
+}
 

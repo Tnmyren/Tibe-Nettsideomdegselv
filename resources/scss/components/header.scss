@@ -2,17 +2,23 @@
     &__wrapper{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-evenly;
+        background-color: white;
     }
     &__logo{
-        height: 200px;
-        width: 200px;
-        background-color: red;
+        height: 100px;
+        width: 100px;
     }
     &__navigation{
-        background-color: green;
+        height: 30px;
+        width: 400px;
+        padding: 10px;
+        padding: auto;
+        text-align: right;
         &--item{
-            color: orange;
-        }
+            color: black;
+            }
     }
 }
+
+
