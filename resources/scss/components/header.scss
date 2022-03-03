@@ -2,21 +2,24 @@
     &__wrapper{
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
-        background-color: white;
+        background-color: #313E50;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items:center;
+
+    
     }
     &__logo{
         height: 100px;
         width: 100px;
     }
     &__navigation{
-        height: 30px;
-        width: 400px;
-        padding: 10px;
-        padding: auto;
-        text-align: right;
+        
+        
+        
         &--item{
-            color: black;
+            display: flex;
+            
             }
     }
 }
