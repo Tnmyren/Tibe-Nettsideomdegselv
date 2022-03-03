@@ -15,9 +15,28 @@
 @import 'components/link.scss';
 
 
-body{
+.body{
     background-color: #3A435E;
-}
+    &__container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items:center;
+        align-content: center;
+        gap: 100px;
+        margin-top: 15%;
+    
+        &__bilde{
+            width: 400px;
+            height: auto;
+            border: 5px solid #313E50;
+            }     
+        &__Text{
+            color: #F1F2EB;
+            }
+        }
+        }
 
 button{
     height: 40px;
@@ -28,30 +47,10 @@ button{
 
  
 
-  .resize {
-    width: 400px;
-    height: auto;
-}
-
-.resize {
-    width: 300px;
-    height: auto;
-}
 
 
 
-.container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items:center;
-    align-content: center;
-    gap: 100px;
-    color: #F1F2EB;
-    row-gap: 20px;
-    margin-top: 15%;
-    
-}
+
+
 
 
