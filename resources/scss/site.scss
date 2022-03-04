@@ -10,12 +10,11 @@
  * Components
  * ex: @import 'components/header';
  */
-
+@import 'components/color.scss';
 @import 'components/header';
 @import 'components/link.scss';
 @import 'components/footer.scss';
 @import 'components/carousell.scss';
-@import 'components/color.scss';
 @import 'components/body.scss';
 @import 'components/buttons.scss';
 
@@ -24,7 +23,7 @@
     0%   {background-color: darkgray;}
     25%  {background-color: dimgray;}   
     50%  {background-color: #545E75;}
-    100% {background-color: $main;}
+    100% {background-color: $color-main;}
 
 }
   
