@@ -14,81 +14,26 @@
 @import 'components/header';
 @import 'components/link.scss';
 @import 'components/footer.scss';
-
-body{
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    position: relative;
-    padding-bottom: 200px;
-    min-height: 100vh;
-}
-.body{
-    background-color: #3A435E;
-    &__container{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items:center;
-        align-content: center;
-        gap: 100px;
-        margin-top: 15%;
-    
-        &__bilde{
-            width: 400px;
-            height: auto;
-            border: 5px solid #313E50;
-            }     
-        &__Text{
-            color: #F1F2EB;
-            }
-        }
-        }
+@import 'components/carousell.scss';
+@import 'components/color.scss';
+@import 'components/body.scss';
+@import 'components/buttons.scss';
 
 
-/* nav knapp */
-button{
-    height: 40px;
-    width: 120px;
-    color: #F1F2EB;
-    background-color: #3A435E;
-}
 @keyframes example {
     0%   {background-color: darkgray;}
-    25%  {background-color: dimgray;}
+    25%  {background-color: dimgray;}   
     50%  {background-color: #545E75;}
-    100% {background-color: #3A435E;}
+    100% {background-color: $main;}
 
 }
-  .test {
+  
+.test {
     width: 100% ;
     height: 100%;;
     animation-name: example;
     animation-duration: 4s;
   }
-    .carousel-inner {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    height: 100%;
-    padding-top: 200px;
-  }
-
-.carusel3{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items:center;
-  align-content: center;
-  gap: 100px;
-  margin-top: 15%;
-  width:100%;
-  height: 400px;
- 
-}
 
 
 

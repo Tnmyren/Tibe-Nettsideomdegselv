@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    position: relative;
+    padding-bottom: 200px;
+    min-height: 100vh;
+}
+.body{
+    background-color: $main;
+    &__container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items:center;
+        align-content: center;
+        gap: 100px;
+        margin-top: 15%;
+    
+        &__bilde{
+            width: 400px;
+            height: auto;
+            border: 5px solid $sekond;
+            }     
+        &__Text{
+            color: #F1F2EB;
+            }
+        }
+        }
